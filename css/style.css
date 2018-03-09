@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+body {
+  font-family: 'Roboto', sans-serif; }
+
+#main-header {
+  background-color: #000; }
+
+.site-logo {
+  position: absolute;
+  top: 8px;
+  z-index: 1; }
+
+#hero {
+  background: url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#hero button {
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  background-color: #0f4a76;
+  border-radius: 0;
+  font-size: .9rem; }
+
+#services h1 {
+  font-weight: lighter;
+  font-size: 3.5rem;
+  color: #0f4a76; }
+
+#services .card {
+  background: linear-gradient(to bottom, #1490e9 0%, #095996 100%);
+  color: #fff;
+  min-height: 400px; }
+
+#services .card a, #services .card a:hover {
+  color: white;
+  text-decoration: none; }
+
+#services .card .fa {
+  padding: 20px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  font-size: 2rem; }
+
+#services .card h5 {
+  font-weight: bold; }
+
+#about {
+  overflow: hidden;
+  background-color: #1a1712; }
+
+#contact {
+  background: url("../img/location_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px; }
+
+@media (max-width: 575px) {
+  .site-logo {
+    position: relative;
+    top: 0px; }
+  #services .card {
+    min-height: 0; } }
