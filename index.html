@@ -61,7 +61,7 @@
                     <h1 class="display-3 pt-2">Alacantara Law</h1>
                     <h2>Personal Injury Attorney</h2>
                     <p class="lead py-3">Our diligent team of legal professionals deliver personalized attention. We advocate on behalf of victims of personal injury and wrongful death claims.</p>
-                    <button class="btn btn-primary text-white">Schedule A Consultation</button>
+                    <button class="btn btn-primary text-white" data-toggle="modal" data-target="#signupForm">Schedule A Consultation</button>
                 </div> <!-- .col-sm-6 -->
             </div> <!-- .row -->
         </div>  <!-- .container -->
@@ -145,10 +145,68 @@
 
     <!-- DIRECTIONS/CONTACT -->
 
-    <section id="contact" class="py-5">
-
+    <section id="contact" class="py-5 text-center">
+        <div class="shade"></div>
+        <div class="container">
+            <div class="info">
+                <h1 class="display-4">Alacantara <span>Law</span></h1>
+                <h3>33 Brookline Aliso Viejo, CA 92656</h3>
+                <h3>T 714.907.1021 | F 714.907.4131</h3>
+                <h3>gracealacantara@gmail.com</h3>
+                <div class="social-media py-4">
+                    <i class="fa fa-facebook px-3"></i>
+                    <i class="fa fa-twitter px-3"></i>
+                    <i class="fa fa-google px-3"></i>
+                    <i class="fa fa-linkedin px-3"></i>
+                </div>
+            </div> <!-- .info -->
+        </div> <!-- .container -->
     </section> <!-- #contact -->
 
+
+
+    <!-- FOOTER -->
+
+    <footer id="main-footer" class="py-4 text-center text-white">
+        <p>Copyright 2018 | Grace Alacantara Law Firm | Legal Disclaimer</p>
+    </footer>
+
+
+    <!-- MODAL -->
+
+    <div class="modal fade" id="signupForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact form</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div> <!-- .modal-header -->
+                <div class="modal-body">
+                    <p>Questions? Want to discuss your case? Fill out the form and we will get back to you as soon as possible.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                        </div> <!-- .form-group -->
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+                        </div> <!-- .form-group -->
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email Address">
+                        </div> <!-- .form-group -->
+                        <div class="form-group">
+                            <textarea name="" id="message-form" rows="5" class="form-control">Message</textarea>
+                        </div> <!-- .form-group -->
+                    </form>
+                </div> <!--.modal-body -->
+                <div class="modal-footer">
+                    <button class="btn btn-outline-primary">Cancel</button>
+                    <button class="btn btn-primary text-white">Submit</button>
+                </div> <!-- .modal-footer -->
+            </div> <!-- .modal-content -->
+        </div> <!-- .modal-dialog -->
+    </div> <!-- #signupForm -->
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>

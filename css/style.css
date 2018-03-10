@@ -50,10 +50,31 @@ body {
   background-color: #1a1712; }
 
 #contact {
+  position: relative;
   background: url("../img/location_bg.jpg");
   background-size: cover;
-  background-position: center;
-  height: 500px; }
+  background-position: center; }
+  #contact .info {
+    position: relative;
+    z-index: 2; }
+  #contact .shade {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; }
+  #contact .fa {
+    font-size: 1.5rem; }
+  #contact h1 {
+    text-transform: uppercase;
+    font-weight: bold; }
+    #contact h1 span {
+      font-weight: lighter; }
+
+#main-footer {
+  background: #000; }
 
 @media (max-width: 575px) {
   .site-logo {
