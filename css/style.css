@@ -5,6 +5,13 @@ body {
 #main-header {
   background-color: #000; }
 
+#hero button {
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  background-color: #0f4a76;
+  border-radius: 0;
+  font-size: .9rem; }
+
 .site-logo {
   position: absolute;
   top: 8px;
@@ -14,13 +21,6 @@ body {
   background: url("../img/hero-bg.jpg");
   background-size: cover;
   background-position: center; }
-
-#hero button {
-  border: 1px solid #fff;
-  text-transform: uppercase;
-  background-color: #0f4a76;
-  border-radius: 0;
-  font-size: .9rem; }
 
 #services h1 {
   font-weight: lighter;
@@ -61,3 +61,7 @@ body {
     top: 0px; }
   #services .card {
     min-height: 0; } }
+
+@media (min-width: px) and (max-width: 1199px) {
+  #services .card {
+    min-height: 450px; } }
