@@ -5,13 +5,6 @@ body {
 #main-header {
   background-color: #000; }
 
-#hero button {
-  border: 1px solid #fff;
-  text-transform: uppercase;
-  background-color: #0f4a76;
-  border-radius: 0;
-  font-size: .9rem; }
-
 .site-logo {
   position: absolute;
   top: 8px;
@@ -21,6 +14,24 @@ body {
   background: url("../img/hero-bg.jpg");
   background-size: cover;
   background-position: center; }
+
+#hero button {
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  background-color: #0f4a76;
+  border-radius: 0;
+  font-size: .9rem; }
+
+.animated {
+  position: relative;
+  opacity: 0;
+  top: 50px;
+  animation: 1s slide-up .5s forwards; }
+
+@keyframes slide-up {
+  100% {
+    opacity: 1;
+    top: 0px; } }
 
 #services h1 {
   font-weight: lighter;
@@ -65,8 +76,11 @@ body {
     width: 100%;
     height: 100%;
     z-index: 0; }
-  #contact .fa {
+  #contact a i.fa {
+    color: #202326;
     font-size: 1.5rem; }
+  #contact a i.fa:hover {
+    color: #4c79cc; }
   #contact h1 {
     text-transform: uppercase;
     font-weight: bold; }
