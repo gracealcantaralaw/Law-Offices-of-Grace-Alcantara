@@ -1,0 +1,28 @@
+#malpractice-hero {
+    background: url("../img/malpractice-hero.jpg");
+    background-size: cover;
+    background-position: center;
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
+
+}
+
+
+#malpractice-info {
+    
+    .left-border {
+        border-left: 3px solid #797979;
+    }
+}
+
+#malpractice-questions {
+    background-color: rgb(30, 64, 109);
+
+    .left-border {
+        border-left: 3px solid #dbdbdb;
+    }
+}

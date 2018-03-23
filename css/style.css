@@ -100,3 +100,6 @@ body {
 @media (min-width: px) and (max-width: 1199px) {
   #services .card {
     min-height: 450px; } }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7); }
