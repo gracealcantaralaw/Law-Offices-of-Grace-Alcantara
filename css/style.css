@@ -97,7 +97,7 @@ body {
   #services .card {
     min-height: 0; } }
 
-@media (min-width: px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   #services .card {
     min-height: 450px; } }
 
